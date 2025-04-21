@@ -38,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
+				26A8F0822DB6074F00F8C90E /* Frameworks */,
 				26189CBB2DB2172300812890 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +49,13 @@
 				26189CBA2DB2172300812890 /* ProjectWrapper.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		26A8F0822DB6074F00F8C90E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
