@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26E6AA6B2DB75A0100F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA6A2DB75A0100F6DD50 /* Languages */; };
-		26E6AA6D2DB75A0100F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA6C2DB75A0100F6DD50 /* Search */; };
+		26E6AA822DB763B600F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA812DB763B600F6DD50 /* Languages */; };
+		26E6AA842DB763B600F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA832DB763B600F6DD50 /* Search */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26189CBA2DB2172300812890 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26189CBA2DB2172300812890 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectWrapper.app; path = "/Users/okanokota/MyPackage/build/Debug-iphoneos/ProjectWrapper.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -28,8 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E6AA6D2DB75A0100F6DD50 /* Search in Frameworks */,
-				26E6AA6B2DB75A0100F6DD50 /* Languages in Frameworks */,
+				26E6AA842DB763B600F6DD50 /* Search in Frameworks */,
+				26E6AA822DB763B600F6DD50 /* Languages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,20 +40,11 @@
 			isa = PBXGroup;
 			children = (
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
-				26A8F0822DB6074F00F8C90E /* Frameworks */,
-				26189CBB2DB2172300812890 /* Products */,
+				26E6AA802DB763B600F6DD50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		26189CBB2DB2172300812890 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				26189CBA2DB2172300812890 /* ProjectWrapper.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		26A8F0822DB6074F00F8C90E /* Frameworks */ = {
+		26E6AA802DB763B600F6DD50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -80,8 +71,8 @@
 			);
 			name = ProjectWrapper;
 			packageProductDependencies = (
-				26E6AA6A2DB75A0100F6DD50 /* Languages */,
-				26E6AA6C2DB75A0100F6DD50 /* Search */,
+				26E6AA812DB763B600F6DD50 /* Languages */,
+				26E6AA832DB763B600F6DD50 /* Search */,
 			);
 			productName = ProjectWrapper;
 			productReference = 26189CBA2DB2172300812890 /* ProjectWrapper.app */;
@@ -115,7 +106,7 @@
 				26E6AA692DB75A0100F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 26189CBB2DB2172300812890 /* Products */;
+			productRefGroup = 26189CB12DB2172300812890;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -348,17 +339,19 @@
 /* Begin XCLocalSwiftPackageReference section */
 		26E6AA692DB75A0100F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../MyPackage;
+			relativePath = .;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		26E6AA6A2DB75A0100F6DD50 /* Languages */ = {
+		26E6AA812DB763B600F6DD50 /* Languages */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 26E6AA692DB75A0100F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */;
 			productName = Languages;
 		};
-		26E6AA6C2DB75A0100F6DD50 /* Search */ = {
+		26E6AA832DB763B600F6DD50 /* Search */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = 26E6AA692DB75A0100F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */;
 			productName = Search;
 		};
 /* End XCSwiftPackageProductDependency section */
