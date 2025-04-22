@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26A8F0852DB6111800F8C90E /* MyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 26A8F0842DB6111800F8C90E /* MyPackage */; };
+		26E6AA6B2DB75A0100F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA6A2DB75A0100F6DD50 /* Languages */; };
+		26E6AA6D2DB75A0100F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA6C2DB75A0100F6DD50 /* Search */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A8F0852DB6111800F8C90E /* MyPackage in Frameworks */,
+				26E6AA6D2DB75A0100F6DD50 /* Search in Frameworks */,
+				26E6AA6B2DB75A0100F6DD50 /* Languages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +80,8 @@
 			);
 			name = ProjectWrapper;
 			packageProductDependencies = (
-				26A8F0842DB6111800F8C90E /* MyPackage */,
+				26E6AA6A2DB75A0100F6DD50 /* Languages */,
+				26E6AA6C2DB75A0100F6DD50 /* Search */,
 			);
 			productName = ProjectWrapper;
 			productReference = 26189CBA2DB2172300812890 /* ProjectWrapper.app */;
@@ -109,7 +112,7 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				26A8F0832DB6111800F8C90E /* XCLocalSwiftPackageReference "../MyPackage" */,
+				26E6AA692DB75A0100F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CBB2DB2172300812890 /* Products */;
@@ -343,16 +346,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		26A8F0832DB6111800F8C90E /* XCLocalSwiftPackageReference "../MyPackage" */ = {
+		26E6AA692DB75A0100F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
+			relativePath = ../MyPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		26A8F0842DB6111800F8C90E /* MyPackage */ = {
+		26E6AA6A2DB75A0100F6DD50 /* Languages */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = MyPackage;
+			productName = Languages;
+		};
+		26E6AA6C2DB75A0100F6DD50 /* Search */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Search;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
