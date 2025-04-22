@@ -7,21 +7,16 @@ let package = Package(
     name: "MyPackage",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "MyPackage",
-            targets: ["MyPackage"]),
+        .library(name: "Languages", targets: ["Languages"]),
+        .library(name: "Search", targets: ["Search"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(name: "MyPackage"),
-        .testTarget(
-            name: "LanguagesTests",
-            dependencies: ["MyPackage"]
-        ),
-        .testTarget(
-            name: "SearchTests",
-            dependencies: ["MyPackage"]
-        ),
+        .target(name: "Languages"),
+        .target(name: "Search"),
+        
+        .testTarget(name: "LanguagesTests", dependencies: ["Languages"]),
+        .testTarget(name: "SearchTests", dependencies: ["Search"])
     ]
 )
