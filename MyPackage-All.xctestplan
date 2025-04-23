@@ -12,20 +12,20 @@
 
   },
   "testTargets" : [
-      {
-          "target": {
-              "containerPath": "container:",
-              "identifier": "LanguagesTests",
-              "name": "LanguagesTests"
-          }
-      },
-      {
-          "target": {
-              "containerPath": "container:",
-              "identifier": "SearchTests",
-              "name": "SearchTests"
-          }
+    {
+      "target" : {
+        "containerPath" : "container:ProjectWrapper.xcodeproj",
+        "identifier" : "LanguagesTests",
+        "name" : "LanguagesTests"
       }
-    ],
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ProjectWrapper.xcodeproj",
+        "identifier" : "SearchTests",
+        "name" : "SearchTests"
+      }
+    }
+  ],
   "version" : 1
 }
