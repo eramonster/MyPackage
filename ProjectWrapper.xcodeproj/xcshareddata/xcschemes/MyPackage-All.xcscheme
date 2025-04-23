@@ -42,7 +42,7 @@
             buildForArchiving = "YES"
             buildForAnalyzing = "NO">
             <TestPlanReference
-               reference = "container:MyPackage-All.xctestplan">
+               reference = "container:MyPackage-All.xctestplan" default = "YES">
             </TestPlanReference>
          </BuildActionEntry>
       </BuildActionEntries>
