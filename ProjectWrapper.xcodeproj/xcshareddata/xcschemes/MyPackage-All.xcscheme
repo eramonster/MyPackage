@@ -56,7 +56,7 @@
             </TestPlanReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
+            buildForTesting = "NO"
             buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "YES"
@@ -74,7 +74,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:../MyLibrary/.swiftpm/MyLibrary-Package.xctestplan"
+            reference = "container:MyPackage-All.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>

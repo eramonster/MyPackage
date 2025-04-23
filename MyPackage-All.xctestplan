@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "BE62FC7D-0F04-4B83-9006-2896344BC5D7",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+      {
+          "target" : {
+              "containerPath" : "container:Tests",
+              "identifier" : "LanguagesTests",
+              "name" : "LanguagesTests"
+          }
+      },
+      {
+          "target" : {
+              "containerPath" : "container:Tests",
+              "identifier" : "SearchTests",
+              "name" : "SearchTests"
+          }
+      }
+  ],
+  "version" : 1
+}

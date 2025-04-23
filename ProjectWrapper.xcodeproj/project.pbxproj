@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2670233C2DB8A905004FCC4C /* MyLibrary-Package.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "MyLibrary-Package.xctestplan"; path = "../MyLibrary/.swiftpm/MyLibrary-Package.xctestplan"; sourceTree = "<group>"; };
+		2670233D2DB8AB2B004FCC4C /* MyPackage-All.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MyPackage-All.xctestplan"; sourceTree = "<group>"; };
 		26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +48,7 @@
 		26189CB12DB2172300812890 = {
 			isa = PBXGroup;
 			children = (
-				2670233C2DB8A905004FCC4C /* MyLibrary-Package.xctestplan */,
+				2670233D2DB8AB2B004FCC4C /* MyPackage-All.xctestplan */,
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
 				26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */,
 			);
