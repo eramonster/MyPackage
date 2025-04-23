@@ -5,7 +5,7 @@
 //  Created by 岡野皓太 on 2025/03/28.
 //
 import Testing
-import MyPackage
+import Search
 
 struct SearchTests {
     @Test func 検索できるか() {

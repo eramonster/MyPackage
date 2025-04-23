@@ -1,5 +1,5 @@
 import Testing
-import MyPackage
+import Languages
 
 struct LanguagesTests {
     @Test func 言語が正しく設定されているか() {

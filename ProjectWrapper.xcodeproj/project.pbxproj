@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267023332DB8A5D0004FCC4C /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 267023322DB8A5D0004FCC4C /* Languages */; };
+		267023352DB8A5D0004FCC4C /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 267023342DB8A5D0004FCC4C /* Search */; };
 		26E6AA982DB8743100F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA972DB8743100F6DD50 /* Languages */; };
 		26E6AA9A2DB8743100F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA992DB8743100F6DD50 /* Search */; };
 		26E6AAAB2DB876F600F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AAAA2DB876F600F6DD50 /* Languages */; };
 		26E6AAAD2DB876F600F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AAAC2DB876F600F6DD50 /* Search */; };
-		26E6AAB52DB87FB400F6DD50 /* AllTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 26E6AAB42DB87FB400F6DD50 /* AllTestPlan.xctestplan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2670233C2DB8A905004FCC4C /* MyLibrary-Package.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = "MyLibrary-Package.xctestplan"; path = "../MyLibrary/.swiftpm/MyLibrary-Package.xctestplan"; sourceTree = "<group>"; };
 		26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		26E6AAB42DB87FB400F6DD50 /* AllTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllTestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,7 +35,9 @@
 			files = (
 				26E6AAAD2DB876F600F6DD50 /* Search in Frameworks */,
 				26E6AAAB2DB876F600F6DD50 /* Languages in Frameworks */,
+				267023352DB8A5D0004FCC4C /* Search in Frameworks */,
 				26E6AA9A2DB8743100F6DD50 /* Search in Frameworks */,
+				267023332DB8A5D0004FCC4C /* Languages in Frameworks */,
 				26E6AA982DB8743100F6DD50 /* Languages in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,7 +48,7 @@
 		26189CB12DB2172300812890 = {
 			isa = PBXGroup;
 			children = (
-				26E6AAB42DB87FB400F6DD50 /* AllTestPlan.xctestplan */,
+				2670233C2DB8A905004FCC4C /* MyLibrary-Package.xctestplan */,
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
 				26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */,
 			);
@@ -75,6 +78,8 @@
 				26E6AA992DB8743100F6DD50 /* Search */,
 				26E6AAAA2DB876F600F6DD50 /* Languages */,
 				26E6AAAC2DB876F600F6DD50 /* Search */,
+				267023322DB8A5D0004FCC4C /* Languages */,
+				267023342DB8A5D0004FCC4C /* Search */,
 			);
 			productName = ProjectWrapper;
 			productReference = 26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */;
@@ -105,7 +110,7 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				26E6AAA92DB876F600F6DD50 /* XCLocalSwiftPackageReference "." */,
+				267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "../MyPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CB12DB2172300812890;
@@ -122,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26E6AAB52DB87FB400F6DD50 /* AllTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,13 +344,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		26E6AAA92DB876F600F6DD50 /* XCLocalSwiftPackageReference "." */ = {
+		267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "../MyPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
+			relativePath = ../MyPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		267023322DB8A5D0004FCC4C /* Languages */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Languages;
+		};
+		267023342DB8A5D0004FCC4C /* Search */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Search;
+		};
 		26E6AA972DB8743100F6DD50 /* Languages */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Languages;
