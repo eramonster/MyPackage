@@ -13,18 +13,18 @@
   },
   "testTargets" : [
       {
-          "bundleReference": {
-              "projectPath": "ProjectWrapper.xcodeproj",
-              "target": "LanguagesTests"
-          },
-          "skip": false
+          "target": {
+              "containerPath": "container:",
+              "identifier": "LanguagesTests",
+              "name": "LanguagesTests"
+          }
       },
       {
-          "bundleReference": {
-              "projectPath": "ProjectWrapper.xcodeproj",
-              "target": "SearchTests"
-          },
-          "skip": false
+          "target": {
+              "containerPath": "container:",
+              "identifier": "SearchTests",
+              "name": "SearchTests"
+          }
       }
     ],
   "version" : 1
