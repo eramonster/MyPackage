@@ -2,7 +2,7 @@
   "configurations" : [
     {
       "id" : "BE62FC7D-0F04-4B83-9006-2896344BC5D7",
-      "name" : "Test Scheme Action",
+      "name" : "MyPackage-All",
       "options" : {
 
       }
