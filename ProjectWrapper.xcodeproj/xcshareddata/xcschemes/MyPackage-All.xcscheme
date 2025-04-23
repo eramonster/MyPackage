@@ -58,6 +58,24 @@
             default = "YES">
          </TestPlanReference>
       </TestPlans>
+      <Testables>
+         <TestableReference skipped="NO">
+            <BuildableReference
+               BuildableIdentifier="primary"
+               BlueprintIdentifier="LanguagesTests"
+               BuildableName="LanguagesTests.xctest"
+               BlueprintName="LanguagesTests"
+               ReferencedContainer="container:ProjectWrapper.xcodeproj"/>
+         </TestableReference>
+         <TestableReference skipped="NO">
+            <BuildableReference
+               BuildableIdentifier="primary"
+               BlueprintIdentifier="SearchTests"
+               BuildableName="SearchTests.xctest"
+               BlueprintName="SearchTests"
+               ReferencedContainer="container:ProjectWrapper.xcodeproj"/>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
