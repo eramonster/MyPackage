@@ -11,10 +11,12 @@
 		26E6AA9A2DB8743100F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA992DB8743100F6DD50 /* Search */; };
 		26E6AAAB2DB876F600F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AAAA2DB876F600F6DD50 /* Languages */; };
 		26E6AAAD2DB876F600F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AAAC2DB876F600F6DD50 /* Search */; };
+		26E6AAB52DB87FB400F6DD50 /* AllTestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 26E6AAB42DB87FB400F6DD50 /* AllTestPlan.xctestplan */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E6AAB42DB87FB400F6DD50 /* AllTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AllTestPlan.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +45,7 @@
 		26189CB12DB2172300812890 = {
 			isa = PBXGroup;
 			children = (
+				26E6AAB42DB87FB400F6DD50 /* AllTestPlan.xctestplan */,
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
 				26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */,
 			);
@@ -102,7 +105,7 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				26E6AAA92DB876F600F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */,
+				26E6AAA92DB876F600F6DD50 /* XCLocalSwiftPackageReference "." */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CB12DB2172300812890;
@@ -119,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26E6AAB52DB87FB400F6DD50 /* AllTestPlan.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +340,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		26E6AAA92DB876F600F6DD50 /* XCLocalSwiftPackageReference "../MyPackage" */ = {
+		26E6AAA92DB876F600F6DD50 /* XCLocalSwiftPackageReference "." */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = .;
 		};
