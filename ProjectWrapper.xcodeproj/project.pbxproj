@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263AF6E32DB8E1BC00650B19 /* LanguagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AF6DE2DB8E1BC00650B19 /* LanguagesTests.swift */; };
+		263AF6E42DB8E1BC00650B19 /* SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AF6E02DB8E1BC00650B19 /* SearchTests.swift */; };
+		263AF6E52DB8E1BC00650B19 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AF6D92DB8E1BC00650B19 /* Languages.swift */; };
+		263AF6E62DB8E1BC00650B19 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AF6DB2DB8E1BC00650B19 /* Search.swift */; };
+		263AF6E72DB8E1BC00650B19 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AF6D72DB8E1BC00650B19 /* Package.swift */; };
+		263AF6E82DB8E1BC00650B19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 263AF6D82DB8E1BC00650B19 /* README.md */; };
 		267023332DB8A5D0004FCC4C /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 267023322DB8A5D0004FCC4C /* Languages */; };
 		267023352DB8A5D0004FCC4C /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 267023342DB8A5D0004FCC4C /* Search */; };
 		26E6AA982DB8743100F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA972DB8743100F6DD50 /* Languages */; };
@@ -16,7 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263AF6D72DB8E1BC00650B19 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		263AF6D82DB8E1BC00650B19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		263AF6D92DB8E1BC00650B19 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		263AF6DB2DB8E1BC00650B19 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		263AF6DE2DB8E1BC00650B19 /* LanguagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagesTests.swift; sourceTree = "<group>"; };
+		263AF6E02DB8E1BC00650B19 /* SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTests.swift; sourceTree = "<group>"; };
+		26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectWrapper.app; path = "/Users/okanokota/MyPackage/build/Debug-iphoneos/ProjectWrapper.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -48,8 +60,61 @@
 			isa = PBXGroup;
 			children = (
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
-				26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */,
+				263AF6D72DB8E1BC00650B19 /* Package.swift */,
+				263AF6D82DB8E1BC00650B19 /* README.md */,
+				263AF6DD2DB8E1BC00650B19 /* Sources */,
+				263AF6E22DB8E1BC00650B19 /* Tests */,
 			);
+			sourceTree = "<group>";
+		};
+		263AF6DA2DB8E1BC00650B19 /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				263AF6D92DB8E1BC00650B19 /* Languages.swift */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		263AF6DC2DB8E1BC00650B19 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				263AF6DB2DB8E1BC00650B19 /* Search.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		263AF6DD2DB8E1BC00650B19 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				263AF6DA2DB8E1BC00650B19 /* Languages */,
+				263AF6DC2DB8E1BC00650B19 /* Search */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		263AF6DF2DB8E1BC00650B19 /* LanguagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				263AF6DE2DB8E1BC00650B19 /* LanguagesTests.swift */,
+			);
+			path = LanguagesTests;
+			sourceTree = "<group>";
+		};
+		263AF6E12DB8E1BC00650B19 /* SearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				263AF6E02DB8E1BC00650B19 /* SearchTests.swift */,
+			);
+			path = SearchTests;
+			sourceTree = "<group>";
+		};
+		263AF6E22DB8E1BC00650B19 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				263AF6DF2DB8E1BC00650B19 /* LanguagesTests */,
+				263AF6E12DB8E1BC00650B19 /* SearchTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +173,6 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "." */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CB12DB2172300812890;
@@ -125,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263AF6E82DB8E1BC00650B19 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				263AF6E32DB8E1BC00650B19 /* LanguagesTests.swift in Sources */,
+				263AF6E42DB8E1BC00650B19 /* SearchTests.swift in Sources */,
+				263AF6E52DB8E1BC00650B19 /* Languages.swift in Sources */,
+				263AF6E62DB8E1BC00650B19 /* Search.swift in Sources */,
+				263AF6E72DB8E1BC00650B19 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,13 +410,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "." */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		267023322DB8A5D0004FCC4C /* Languages */ = {
