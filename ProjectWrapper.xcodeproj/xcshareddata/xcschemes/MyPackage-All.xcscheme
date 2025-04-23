@@ -42,7 +42,7 @@
             buildForArchiving = "YES"
             buildForAnalyzing = "NO">
             <TestPlanReference
-               reference = "container:.swiftpm/MyPackage-All.xctestplan">
+               reference = "container:MyPackage-All.xctestplan">
             </TestPlanReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -54,7 +54,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:.swiftpm/MyPackage-All.xctestplan"
+            reference = "container:MyPackage-All.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>

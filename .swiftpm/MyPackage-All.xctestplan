@@ -14,14 +14,14 @@
   "testTargets" : [
     {
       "target" : {
-        "containerPath" : "container:ProjectWrapper.xcodeproj",
+        "containerPath" : "container:",
         "identifier" : "LanguagesTests",
         "name" : "LanguagesTests"
       }
     },
     {
       "target" : {
-        "containerPath" : "container:ProjectWrapper.xcodeproj",
+        "containerPath" : "container:",
         "identifier" : "SearchTests",
         "name" : "SearchTests"
       }
