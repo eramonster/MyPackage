@@ -2,7 +2,7 @@
   "configurations" : [
     {
       "id" : "BE62FC7D-0F04-4B83-9006-2896344BC5D7",
-      "name" : "Configuration 1",
+      "name" : "Test Scheme Action",
       "options" : {
 
       }
@@ -13,19 +13,19 @@
   },
   "testTargets" : [
       {
-          "target" : {
-              "containerPath" : "container:Tests",
-              "identifier" : "LanguagesTests",
-              "name" : "LanguagesTests"
-          }
+          "bundleReference": {
+              "projectPath": "ProjectWrapper.xcodeproj",
+              "target": "LanguagesTests"
+          },
+          "skip": false
       },
       {
-          "target" : {
-              "containerPath" : "container:Tests",
-              "identifier" : "SearchTests",
-              "name" : "SearchTests"
-          }
+          "bundleReference": {
+              "projectPath": "ProjectWrapper.xcodeproj",
+              "target": "SearchTests"
+          },
+          "skip": false
       }
-  ],
+    ],
   "version" : 1
 }
