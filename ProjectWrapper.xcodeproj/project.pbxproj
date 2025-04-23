@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2670233D2DB8AB2B004FCC4C /* MyPackage-All.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MyPackage-All.xctestplan"; sourceTree = "<group>"; };
 		26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +47,6 @@
 		26189CB12DB2172300812890 = {
 			isa = PBXGroup;
 			children = (
-				2670233D2DB8AB2B004FCC4C /* MyPackage-All.xctestplan */,
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
 				26E6AAA22DB876BF00F6DD50 /* ProjectWrapper.app */,
 			);
@@ -110,7 +108,7 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "../MyPackage" */,
+				267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "." */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CB12DB2172300812890;
@@ -344,7 +342,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "../MyPackage" */ = {
+		267023312DB8A5D0004FCC4C /* XCLocalSwiftPackageReference "." */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = .;
 		};
