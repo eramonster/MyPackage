@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		263AF6E72DB8E1BC00650B19 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263AF6D72DB8E1BC00650B19 /* Package.swift */; };
-		263AF6E82DB8E1BC00650B19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 263AF6D82DB8E1BC00650B19 /* README.md */; };
 		267023332DB8A5D0004FCC4C /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 267023322DB8A5D0004FCC4C /* Languages */; };
 		267023352DB8A5D0004FCC4C /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 267023342DB8A5D0004FCC4C /* Search */; };
 		26BABB732DBA0A5800C6BD18 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26BABB722DBA0A5800C6BD18 /* Languages */; };
@@ -20,9 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		263AF6D72DB8E1BC00650B19 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		263AF6D82DB8E1BC00650B19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		26BABB6A2DB9DC1700C6BD18 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectWrapper.app; path = "/Users/okanokota/MyPackage/build/Debug-iphoneos/ProjectWrapper.app"; sourceTree = "<absolute>"; };
+		26BABB762DBA0C8F00C6BD18 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectWrapper.app; path = "/Users/okanokota/MyPackage/build/Debug-iphoneos/ProjectWrapper.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -56,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
-				263AF6D72DB8E1BC00650B19 /* Package.swift */,
-				263AF6D82DB8E1BC00650B19 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +85,7 @@
 				26BABB742DBA0A5800C6BD18 /* Search */,
 			);
 			productName = ProjectWrapper;
-			productReference = 26BABB6A2DB9DC1700C6BD18 /* ProjectWrapper.app */;
+			productReference = 26BABB762DBA0C8F00C6BD18 /* ProjectWrapper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +113,7 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				26BABB712DBA0A5800C6BD18 /* XCLocalSwiftPackageReference "../MyPackage" */,
+				26BABB712DBA0A5800C6BD18 /* XCLocalSwiftPackageReference "." */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CB12DB2172300812890;
@@ -136,7 +130,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263AF6E82DB8E1BC00650B19 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263AF6E72DB8E1BC00650B19 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +347,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		26BABB712DBA0A5800C6BD18 /* XCLocalSwiftPackageReference "../MyPackage" */ = {
+		26BABB712DBA0A5800C6BD18 /* XCLocalSwiftPackageReference "." */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = .;
 		};
