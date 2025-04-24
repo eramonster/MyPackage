@@ -39,7 +39,7 @@
             buildForTesting = "YES"
             buildForRunning = "NO"
             buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForArchiving = "YES"
             buildForAnalyzing = "NO">
             <TestPlanReference
                reference = "container:.swiftpm/MyPackage-All.xctestplan">
