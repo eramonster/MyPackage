@@ -11,20 +11,38 @@
 		267023352DB8A5D0004FCC4C /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 267023342DB8A5D0004FCC4C /* Search */; };
 		26BABB732DBA0A5800C6BD18 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26BABB722DBA0A5800C6BD18 /* Languages */; };
 		26BABB752DBA0A5800C6BD18 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26BABB742DBA0A5800C6BD18 /* Search */; };
+		26BABB932DBA246200C6BD18 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26BABB922DBA246200C6BD18 /* Languages */; };
+		26BABB952DBA246200C6BD18 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26BABB942DBA246200C6BD18 /* Search */; };
 		26E6AA982DB8743100F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA972DB8743100F6DD50 /* Languages */; };
 		26E6AA9A2DB8743100F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AA992DB8743100F6DD50 /* Search */; };
 		26E6AAAB2DB876F600F6DD50 /* Languages in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AAAA2DB876F600F6DD50 /* Languages */; };
 		26E6AAAD2DB876F600F6DD50 /* Search in Frameworks */ = {isa = PBXBuildFile; productRef = 26E6AAAC2DB876F600F6DD50 /* Search */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		26BABB8C2DBA243600C6BD18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26189CB22DB2172300812890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26189CB92DB2172300812890;
+			remoteInfo = ProjectWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		26BABB762DBA0C8F00C6BD18 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ProjectWrapper.app; path = "/Users/okanokota/MyPackage/build/Debug-iphoneos/ProjectWrapper.app"; sourceTree = "<absolute>"; };
+		26BABB7D2DBA14DA00C6BD18 /* ProjectWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BABB882DBA243600C6BD18 /* ProjectWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		26189CBC2DB2172300812890 /* ProjectWrapper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ProjectWrapper;
+			sourceTree = "<group>";
+		};
+		26BABB892DBA243600C6BD18 /* ProjectWrapperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ProjectWrapperTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +63,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26BABB852DBA243600C6BD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BABB952DBA246200C6BD18 /* Search in Frameworks */,
+				26BABB932DBA246200C6BD18 /* Languages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,6 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				26189CBC2DB2172300812890 /* ProjectWrapper */,
+				26BABB7D2DBA14DA00C6BD18 /* ProjectWrapper.app */,
+				26BABB882DBA243600C6BD18 /* ProjectWrapperTests.xctest */,
+				26BABB892DBA243600C6BD18 /* ProjectWrapperTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,8 +115,33 @@
 				26BABB742DBA0A5800C6BD18 /* Search */,
 			);
 			productName = ProjectWrapper;
-			productReference = 26BABB762DBA0C8F00C6BD18 /* ProjectWrapper.app */;
+			productReference = 26BABB7D2DBA14DA00C6BD18 /* ProjectWrapper.app */;
 			productType = "com.apple.product-type.application";
+		};
+		26BABB872DBA243600C6BD18 /* ProjectWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26BABB902DBA243600C6BD18 /* Build configuration list for PBXNativeTarget "ProjectWrapperTests" */;
+			buildPhases = (
+				26BABB842DBA243600C6BD18 /* Sources */,
+				26BABB852DBA243600C6BD18 /* Frameworks */,
+				26BABB862DBA243600C6BD18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BABB8D2DBA243600C6BD18 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				26BABB892DBA243600C6BD18 /* ProjectWrapperTests */,
+			);
+			name = ProjectWrapperTests;
+			packageProductDependencies = (
+				26BABB922DBA246200C6BD18 /* Languages */,
+				26BABB942DBA246200C6BD18 /* Search */,
+			);
+			productName = ProjectWrapperTests;
+			productReference = 26BABB882DBA243600C6BD18 /* ProjectWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +156,10 @@
 					26189CB92DB2172300812890 = {
 						CreatedOnToolsVersion = 16.3;
 					};
+					26BABB872DBA243600C6BD18 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 26189CB92DB2172300812890;
+					};
 				};
 			};
 			buildConfigurationList = 26189CB52DB2172300812890 /* Build configuration list for PBXProject "ProjectWrapper" */;
@@ -113,7 +172,7 @@
 			mainGroup = 26189CB12DB2172300812890;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				26BABB712DBA0A5800C6BD18 /* XCLocalSwiftPackageReference "." */,
+				26BABB912DBA246200C6BD18 /* XCLocalSwiftPackageReference "../MyPackage" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 26189CB12DB2172300812890;
@@ -121,12 +180,20 @@
 			projectRoot = "";
 			targets = (
 				26189CB92DB2172300812890 /* ProjectWrapper */,
+				26BABB872DBA243600C6BD18 /* ProjectWrapperTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		26189CB82DB2172300812890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26BABB862DBA243600C6BD18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -143,7 +210,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26BABB842DBA243600C6BD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BABB8D2DBA243600C6BD18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26189CB92DB2172300812890 /* ProjectWrapper */;
+			targetProxy = 26BABB8C2DBA243600C6BD18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		26189CC32DB2172400812890 /* Debug */ = {
@@ -323,6 +405,42 @@
 			};
 			name = Release;
 		};
+		26BABB8E2DBA243600C6BD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N5WPU3C4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eramon.ProjectWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWrapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectWrapper";
+			};
+			name = Debug;
+		};
+		26BABB8F2DBA243600C6BD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N5WPU3C4S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eramon.ProjectWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectWrapper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ProjectWrapper";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,12 +462,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		26BABB902DBA243600C6BD18 /* Build configuration list for PBXNativeTarget "ProjectWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26BABB8E2DBA243600C6BD18 /* Debug */,
+				26BABB8F2DBA243600C6BD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		26BABB712DBA0A5800C6BD18 /* XCLocalSwiftPackageReference "." */ = {
+		26BABB912DBA246200C6BD18 /* XCLocalSwiftPackageReference "../MyPackage" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = .;
+			relativePath = ../MyPackage;
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -367,6 +494,14 @@
 			productName = Languages;
 		};
 		26BABB742DBA0A5800C6BD18 /* Search */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Search;
+		};
+		26BABB922DBA246200C6BD18 /* Languages */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Languages;
+		};
+		26BABB942DBA246200C6BD18 /* Search */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Search;
 		};
