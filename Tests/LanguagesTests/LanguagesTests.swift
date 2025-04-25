@@ -7,4 +7,10 @@ struct LanguagesTests {
         #expect(lang.name == "English")
         #expect(lang.greetings.count == 2)
     }
+    
+    @Test func 言語が正しく設定されているか2() {
+        let lang = Language(name: "English", greetings: ["Hello", "GoodMorning"], code: "en")
+        #expect(lang.name == "English")
+        #expect(lang.greetings.count == 2)
+    }
 }
